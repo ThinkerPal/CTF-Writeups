@@ -7,8 +7,8 @@ Well, while I **will** (at some point) clean that up, this repository is mostly 
 ## CTFs I've participated in (not all have writeups):
 
 ### Past (pre 2021):
-- The One After NOI 2018 (I unfortunately cannot remember the name)
-- The One After NOI 2019 ()
+- The One After NOI 2018 
+- The One After NOI 2019 
 - Might have more but I forgot :(
 
 ### 2021:
