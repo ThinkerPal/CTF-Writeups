@@ -12,10 +12,10 @@ Well, while I **will** (at some point) clean that up, this repository is mostly 
 - Might have more but I forgot :(
 
 ### 2021:
-- [DSO-NUS CTF 2021](/2021-00-DSO_NUS)
+- [DSO-NUS CTF 2021](2021-00-DSO_NUS)
 - SMU WhiteHacks 2021
-- [Cyber Youth CYSummit CTF 2021](/2021-01-CYSummit)
-- [DSTA Cyber Defenders Discover Camp (CDDC) 2021](/2021-02-CDDC)
+- [Cyber Youth CYSummit CTF 2021](2021-01-CYSummit)
+- [DSTA Cyber Defenders Discover Camp (CDDC) 2021](2021-02-CDDC)
 
 
 Inspired by [@xeniafiorenza](https://github.com/xeniafiorenza). Go check out his [CTF Writeup repo](https://github.com/xeniafiorenza/CTF-Writeups)!
