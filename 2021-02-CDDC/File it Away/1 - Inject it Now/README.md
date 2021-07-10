@@ -70,7 +70,7 @@ int check_cmd(char* command) // This function filters out words like "flag, sh" 
     ret += strstr(command, "tmp")!=0; // Filters out "tmp"
     ret += strstr(command, "cat")!=0; // Filters out "cat"
 
-    return ret; // Returns the value of ret. If any of the keywords have been detected, it returns a non-zero value which will cause the program to terminal
+    return ret; // Returns the value of ret. If any of the keywords have been detected, it returns a non-zero value which will cause the program to terminate
 }
 
 
@@ -120,6 +120,7 @@ Some notes:
 Finally, after a dinner break, I stumbled upon the winning ~~formula~~ command:
 
 ![](./wowgotflag.png)
+
 :tada: Flag found!!
 ## Flag:
 ```CDDC21{You_Wi11_n3ver_st0p_u$}```
