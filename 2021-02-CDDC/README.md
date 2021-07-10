@@ -3,7 +3,7 @@
 ## Team Info:
 - Name: csemege
 - Points: 6990
-- Standing: Awaiting Leaderboard release
+- Standing: 13/?? (They never released the full scoreboard :pensive:)
 
 ## How the CTF went:
 oh boy. 
