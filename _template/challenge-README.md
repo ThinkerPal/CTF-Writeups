@@ -1,5 +1,8 @@
 # [Challenge]
 
+- Category: [Pwn/OSINT/Linux/etc]
+- Challenge Helpers: [Insert anyone else here who helped]
+
 ## Challenge Description:
 [Challenge Description]
 
