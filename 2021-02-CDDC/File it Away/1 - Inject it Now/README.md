@@ -3,7 +3,7 @@
 - Points: 200
 - Captures: 23
 ## Challenge Description:
-We managed to get access to one of the GDC servers. We believe it stores some interesting information. Help us retrieve it.
+```We managed to get access to one of the GDC servers. We believe it stores some interesting information. Help us retrieve it.```
 
 *(A netcat target was provided for us to access)*
 ## Solution:

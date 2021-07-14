@@ -1,19 +1,15 @@
-# [Challenge]
+# Length Matters?
 
-- Category: [Pwn/OSINT/Linux/etc]
-- Challenge Helpers: [Insert anyone else here who helped]
+- Category: Pwn
+- Points: 300
+- Captures: 21
 
 ## Challenge Description:
-[Challenge Description]
+```You are provided with credentials to a GDC server. It has an executable file that might reveal some juicy info. Find a way to exploit it.```
 
-## Files Attached:
-[If any, list them here - paste source code but link binaries]
-
+*(A netcat target was provided for us to access)*
 ## Solution:
-
 ### Tools used:
-- [Tools]
-
-[Actual Solution goes here]
-
+- `cat, sh, ls` 
+This....was an _interesting_ challenge
 ## Flag:
