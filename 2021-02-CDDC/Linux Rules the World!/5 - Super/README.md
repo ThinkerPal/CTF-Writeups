@@ -1,19 +1,24 @@
-# [Challenge]
+# Super
 
-- Category: [Pwn/OSINT/Linux/etc]
-- Challenge Helpers: [Insert anyone else here who helped]
+- Category: Linux
+- Points: 200
+- Captures: 22
+- Challenge Helpers: [@XeniaFiorenza](https://github.com/xeniafiorenza/CTF-Writeups/tree/main/CDDC%202021)
 
 ## Challenge Description:
-[Challenge Description]
-
-## Files Attached:
-[If any, list them here - paste source code but link binaries]
-
+```
+This bot doesn’t look so important, it seems like he can do nothing…figure out how you can move on to the next user.
+```
 ## Solution:
 
 ### Tools used:
-- [Tools]
+- `sudo, cat, ls`
 
-[Actual Solution goes here]
+![](bot5-logon.png)
+![](bot5-perms.png)
+![](bot5-flag.png)
 
 ## Flag:
+```
+CDDC21{b3w4r3sud03rz}
+```
