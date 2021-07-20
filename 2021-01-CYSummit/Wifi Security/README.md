@@ -29,6 +29,7 @@ First, we need to set our interface to monitor mode.
 We can do so by running:
 
 `iw dev wlan0 set monitor none`
+
 *no need to run with sudo as we are root!*
 
 Next, we need to scan for wifi! 
