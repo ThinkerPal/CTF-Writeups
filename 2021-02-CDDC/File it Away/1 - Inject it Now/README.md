@@ -41,7 +41,7 @@ More importantly, we see that flag has read-only permissions for the file owner,
 
 As expected, when we try to `cat` the file directly, we are faced with a permissions issue as seen below:
 
-![](./cantcatflag.png)
+![](cantcatflag.png)
 
 *much sadness*
 
@@ -119,8 +119,10 @@ Some notes:
 
 Finally, after a dinner break, I stumbled upon the winning ~~formula~~ command:
 
-![](./wowgotflag.png)
+![](wowgotflag.png)
 
 :tada: Flag found!!
 ## Flag:
-```CDDC21{You_Wi11_n3ver_st0p_u$}```
+```
+CDDC21{You_Wi11_n3ver_st0p_u$}
+```

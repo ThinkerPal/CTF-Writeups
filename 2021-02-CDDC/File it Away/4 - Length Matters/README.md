@@ -62,4 +62,6 @@ With a 3 character limit, this is more than enough to run `sh` or `zsh`. So we o
 ![](wowShell.png)
 
 ## Flag:
-```DDC21{0nly_thr33_ch@rs??}```
+```
+CDDC21{0nly_thr33_ch@rs??}
+```
