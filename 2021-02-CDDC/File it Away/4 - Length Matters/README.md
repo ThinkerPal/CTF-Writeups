@@ -60,7 +60,6 @@ we pop a shell. yes. I am not kidding
 With a 3 character limit, this is more than enough to run `sh` or `zsh`. So we open a new shell that runs as root and then cat the flag from there, as shown:
 
 ![](wowShell.png)
-_(apologies about the first line being offset)_
 
 ## Flag:
 ```DDC21{0nly_thr33_ch@rs??}```
