@@ -34,13 +34,16 @@ We can do so by running:
 Next, we need to scan for wifi! 
 
 `airodump-ng wlan0`
+
 ![](2.4-only.png)
+
 However, as it is a 5GHz network, and airodump-ng does not scan for 5Ghz channels by default, we need to include the -b a flag (sets the band to scan in ac mode (802.11ac - 2.4GHz **and** 5GHz))
 
 `airodump-ng wlan0 -b a`
-![](network-found-5GHz.png)
-We find the wifi network broadcasting on `channel 132`, which gives us the first flag.
 
+![](network-found-5GHz.png)
+
+We find the wifi network broadcasting on `channel 132`, which gives us the first flag.
 ### Flag 2:
 Next, we need to focus on that specific network, and do a network capture
 
