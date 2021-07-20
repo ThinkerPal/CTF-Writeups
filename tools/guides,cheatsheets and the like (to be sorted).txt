@@ -1,0 +1,7 @@
+https://www.tutorialspoint.com/mysql/mysql-sql-injection.htm
+https://dotnettutorials.net/lesson/sql-injection-in-mysql/
+https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet
+https://perspectiverisk.com/mysql-sql-injection-practical-cheat-sheet/
+https://infosecwriteups.com/tagged/sql-injection
+https://rainbowpigeon.netlify.app/posts/recovering-graphics-from-a-broken-pdf/#
+https://book.hacktricks.xyz/pentesting-web/file-upload#special-extension-tricks
