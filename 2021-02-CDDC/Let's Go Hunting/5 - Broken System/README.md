@@ -1,14 +1,12 @@
-# [Challenge]
+# Broken System
 
-- Category: [Pwn/OSINT/Linux/etc]
-- Challenge Helpers: [Insert anyone else here who helped]
-
+- Category: OSINT
+- Points: 300
+- Captures: 19
 ## Challenge Description:
-[Challenge Description]
-
-## Files Attached:
-[If any, list them here - paste source code but link binaries]
-
+```
+The CryptIT Banking and Consulting company suspects that the GlobalDominationCorporation is attacking its email systems. They need your help to fix the misconfiguration.
+```
 ## Solution:
 
 ### Tools used:
@@ -17,3 +15,6 @@
 [Actual Solution goes here]
 
 ## Flag:
+```
+CDDC21{_10x_f0r_yOur_Serv!ce_}
+```

@@ -1,13 +1,12 @@
-# [Challenge]
+# Name System
 
-- Category: [Pwn/OSINT/Linux/etc]
-- Challenge Helpers: [Insert anyone else here who helped]
-
+- Category: OSINT
+- Points: 200
+- Captures: 31
 ## Challenge Description:
-[Challenge Description]
-
-## Files Attached:
-[If any, list them here - paste source code but link binaries]
+```
+It’s unbelievable! Every day, we get a new piece of information about the Global Domination Corporation. Now it’s a new domain, globdominationcorp.com.  I tried to check if they have a website at www.globdominationcorp.com, but there is nothing there. What else can we do?
+```
 
 ## Solution:
 
@@ -17,3 +16,6 @@
 [Actual Solution goes here]
 
 ## Flag:
+```
+CDDC21{EnumeRation_!s_the_KEY_F0R_EveryTHING!}
+```
