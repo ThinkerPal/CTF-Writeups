@@ -10,6 +10,8 @@ This was a pretty interesting CTF, given that the challenges were entirely onlin
 
 Something weird during this CTF was that there was no point decay in the scoring, but I'm not complaining :)
 
+I also had a mid year General Paper exam (I'm taking A-levels next year) when this competition started, and did not get the chance to start until later in the afternoon, when most of the flags we submitted were already completed
+
 This was a very enjoyable experience, and I would like to thank the organising commitee for their efforts!
 
 ## tl;dr of what I Should Improve on :tm:
@@ -17,4 +19,4 @@ This was a very enjoyable experience, and I would like to thank the organising c
 - AWS CLI (Although...I don't forsee myself using this much in other CTFs...still good to know!)
 
 ## Flags:
-- [Flags to come]
+- [Wifi Security](Wifi%20Security)

