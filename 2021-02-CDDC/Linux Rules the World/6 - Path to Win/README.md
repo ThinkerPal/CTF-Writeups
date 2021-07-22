@@ -3,16 +3,16 @@
 - Category: Linux
 - Points: 400
 - Captures: 18
-- Challenge Helpers: [@XeniaFiorenza](https://github.com/xeniafiorenza/CTF-Writeups/tree/main/CDDC%202021)
 
 ## Challenge Description:
 ```
 The Cyber-BOTs system info software may lead you to the last user. Find a way to exploit it.
 ```
-## Solution:
 
+## Prologue:
 I will preface this solution by mentioning that this challenge is very similar to the [Insecure Challenge](../../../2021-00-DSO_NUS/Insecure/) that I completed during DSO-NUS 2021. 
 
+## Solution:
 
 ![](bot6-logon.png)
 
