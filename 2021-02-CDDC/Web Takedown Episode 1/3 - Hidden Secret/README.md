@@ -3,7 +3,7 @@
 - Category: Web
 - Points: 200
 - Captures: 55
-- Challenge Helpers: [@Isacara](https://github.com/Iscaraca)
+- Challenge Helpers: [@Iscaraca](https://github.com/Iscaraca)
 
 ## Challenge Description:
 ```
