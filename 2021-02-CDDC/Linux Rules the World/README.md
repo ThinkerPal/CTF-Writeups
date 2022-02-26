@@ -7,3 +7,6 @@ We believe it could contain crucial information about Global Domination Corporat
 ```
 
 This Category is a Linux Category, and requires you to ssh into their machine and log on as different users, to access the flag that is in their home directory.
+
+
+Interesting reads: [https://sumit-ghosh.com/articles/hijacking-library-functions-code-injection-ld-preload/](https://sumit-ghosh.com/articles/hijacking-library-functions-code-injection-ld-preload/)
