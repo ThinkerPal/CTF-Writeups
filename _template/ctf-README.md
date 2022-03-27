@@ -1,4 +1,4 @@
-# [CTF Challenge Name]
+# [CTF Name]
 
 ## Team Info:
 - Name: [Team Name]
