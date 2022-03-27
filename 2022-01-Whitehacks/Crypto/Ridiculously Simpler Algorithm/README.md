@@ -1,21 +1,21 @@
-# [Challenge]
+# Ridiculously Simpler Algorithm 
 
 - Category: Crypto
-- Points: ?/? (If there is Point Decay, stating the original score would help)
-- Captures: [] (Mainly as a means of the relative difficulty of the flag)
-- Challenge Helpers: [Insert anyone else here who helped]
+- Points: 976/1000 
+- Captures: 14
 
 ## Challenge Description:
-[Challenge Description]
+You cracked me once, now I'm back for revenge with an upgraded defence mechanism!
 
 ## Files Attached:
-[If any, list them here - paste source code but link binaries]
+[ecrypted.txt](encrypted.txt)
 
 ## Solution:
 
 ### Tools used:
 - [Tools]
 
-[Actual Solution goes here]
+Looked up the key in factordb, seemed like it was a square number, but couldn't figure out how to move on from there. may try again later
 
 ## Flag:
+no solve

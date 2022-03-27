@@ -14,11 +14,10 @@
 
 ## Flags:
 ### Crypto:
-- [Really S1mp(l3) Algorithm](Crypto/Really%20S1mpl3%20Algorithm/) (Incomplete)
-- [The Indecipherable Cipher](Crypto/The%20Indecipherable%20Cipher/) (Incomplete)
-- [Ridiculously Simpler Algorithm](Crypto/Ridiculously%20Simpler%20Algorithm/) (Incomplete)
-- [The Poem of Knowledge](Crypto/The%20Poem%20of%20Knowledge/) (Incomplete)
-
+- [Really S1mp(l3) Algorithm](Crypto/Really%20S1mpl3%20Algorithm/) 
+- [The Indecipherable Cipher](Crypto/The%20Indecipherable%20Cipher/) 
+- [Ridiculously Simpler Algorithm](Crypto/Ridiculously%20Simpler%20Algorithm/) (Did not manage to complete during CTF, may try again later)
+- [The Poem of Knowledge](Crypto/The%20Poem%20of%20Knowledge/) (Did not manage to complete during CTF, may try again later)
 ### Forensics:
 - [The Prompt Within](Forensics/The%20Prompt%20Within/) (Incomplete)
 - [Jack's Rival](Forensics/Jacks%20Rival/) (Incomplete)
