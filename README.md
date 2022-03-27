@@ -4,6 +4,7 @@ Hello! You're probably wondering what this repository is doing in the middle of 
 
 Well, while I **will** (at some point) clean that up, this repository is mostly for me to pen down some of my thought process when solving flags in Capture-The-Flag (CTF) Competitons. This serves as a way for me to share what I've learnt (which...probably wouldn't be much to most of you because I'm still a beginner), and as a way for me to reference back what I've done 6 months later when I inevitably forget how to solve a question/use a tool (which would be _pretty_ likely!)
 
+_Spoiler Alert: ~~If you can't already tell, I'm pretty bad at finding time to finish my writeups. Oops~~_
 ## CTFs I've participated in (not all have writeups):
 
 ### 2022:
