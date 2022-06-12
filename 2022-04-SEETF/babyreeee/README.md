@@ -47,29 +47,29 @@ We can then write a Python script making use of `pwntools` to interact with the 
 from pwn import process
 
 foundFlag = False
-SEED = "SEE{"
+SEED = "SEE{" # We know that the flag starts with this, so no need to brute force the first few characters
 LENGTH = 52
 POS = len(SEED)
 
 while foundFlag != True:
-    for i in range(32, 127):
-        genstr = SEED + chr(i) + "a"*int(LENGTH-POS-1)
-        p = process('./chall')
+    for i in range(32, 127): # Refer to table below — characters with an ASCII code of between 32 and 126 (decimal) are printable ie. they can be typed
+        genstr = SEED + chr(i) + "a"*int(LENGTH-POS-1) # Generates a string with the previouisly guessed and known "correct" strings, followed by the currently guessed character, and then padded with "a"s to make sure it will be 52 characters long
+        p = process('./chall') # Starts the binary
         a = p.recv()
-        p.sendline(genstr.encode())
+        p.sendline(genstr.encode()) # Sends our guessed string in
         a = p.recv()
-        if "champ" in a.decode():
+        if "champ" in a.decode(): # Flag Found condition: Program prints "Success! Go get your points, champ." if we found the flag, so we know to stop the program if that is printed.
             foundFlag = True
             print("FLAG FOUNDDDDD")
             print(genstr)
             break
         else:
             try:
-                numindex = a.decode().find("index: ")
+                numindex = a.decode().find("index: ") # We get the index printed from the output of the program
                 lookingPos = int(a[numindex+7:])
-                if lookingPos > POS:
-                    POS += 1
-                    SEED = SEED + chr(i)
+                if lookingPos > POS: # We then check if the index printed is greater than the index that we are currently guessing, and if so:
+                    POS += 1 # Increases the index of the string where we are guessing the character by 1
+                    SEED = SEED + chr(i) # Saves the currently guessed character into the string of known good "guessed" letters
                     print(genstr)
             except:
                 print(a)
