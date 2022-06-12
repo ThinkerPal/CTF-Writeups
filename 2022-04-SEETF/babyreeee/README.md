@@ -25,9 +25,13 @@ If we inspect the binary with cutter, we can use the decompiler to have a look a
 ![](cutter-main.png)
 _I have scrolled down to the relevant section for getting more information_
 
-We can see that the program takes in standard input (as seen in `fgets(str.HOI._0_8_, acStack344, 0x80, _stdin);`), then goes on to check the length of the string that we input if it is of length `0x35`, which in binary is **53** characters long, inclusive of the terminating null byte.
+We can see that the program takes in standard input (as seen in `fgets(str.HOI._0_8_, acStack344, 0x80, _stdin);`). It then goes on to check the length of the string inputted with `iVar4 = strlen(acStack344);`, and checks if that length is equal to `0x35`, which is hexadecimal for `53` (see conversion below).
 
-This means that our flag that we have to guess has to be **52** characters, since the terminating byte is automatically inserted when we enter our guessed flag (usually a `"\n"`). We can test this by sending a 52 character string into the binary, which reports that we have the right length flag but not the right first character as seen below.
+![](convert-hex-decimal.png)
+
+This means that the flag we are trying to guess is **52** characters long, since the terminating byte is automatically inserted when we enter our guessed flag (usually a `"\0"` — refer to [this](https://www.tutorialspoint.com/cprogramming/c_strings.htm) to get a better idea of how strings in C work). 
+
+We can test this by sending a string of 52 characters long into the program, which reports that we have the right length flag but not the right first character as seen below.
 
 ![](test-length.png)
 
@@ -71,6 +75,10 @@ while foundFlag != True:
                 print(a)
         p.close()
 ```
+
+What the above script does is it tries to bruteforce each character by using the full string of correct characters, then trying every possible character until the process outputs that we have an index (when it prints `"Flag check failed at index: x"` where x is the index of the letter we are guessing) that is greater than what we previously had, which tells us that we have a correct letter guessed. 
+
+![](ascii-table.png)
 
 Running the script will guess each printable ASCII character against the binary, eventually leading us to the flag!
 
