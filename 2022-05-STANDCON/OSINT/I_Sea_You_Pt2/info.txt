@@ -1,0 +1,24 @@
+given slides
+https://docs.google.com/presentation/d/10uAbsSbh9LVSDK4Qwa4QfiFGBBl1zKi5OdSCVoPJQ5I/edit#slide=id.p
+
+can go to shared with me on gdrive to see the orignal name + creation date
+go to web.archive.org to get the edit link and save as html the version from feb 17 (https://web.archive.org/web/20220217070842/https://docs.google.com/presentation/d/10uAbsSbh9LVSDK4Qwa4QfiFGBBl1zKi5OdSCVoPJQ5I/edit)
+search for ig in the html page, then scroll down and find the @ handle
+on the live presentation, open inspector and look for the element hidden below the rectangle to get the secret messgae
+
+
+name: orcaifydiary
+date of file creation: 17022022
+ig handle: @mrwhaleywonka
+secret text: iloveplushies
+
+STANDCON22{orcaifydiary_17022022_@mrwhaleywonka_iloveplushies}
+
+You will need to find:
+
+    The original title of the file (lowercase, no spaces, if any)
+    Date of File Creation (DDMMYYYY) (GMT+8, SGT)
+    Orca's Instagram Handle (including the @, lowercase)
+    The Secret Text on the second last Slide (copy it down as you see it - no spaces)
+
+And submit it in the format STANDCON22{<original title of file>_<date of file creation in the format DDMMYYYY>_<agent orca's instagram handle>_<the secret text>}

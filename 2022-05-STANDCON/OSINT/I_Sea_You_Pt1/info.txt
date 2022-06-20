@@ -1,0 +1,22 @@
+morse code: https://morsecode.world/international/decoder/audio-decoder-adaptive.html
+
+
+
+CHANNEL COMPROMISED. EMAIL ORCA.ATLANTIS@GMAIL.COM.
+
+Email the email stated
+get reply with partial text + text in white
+
+
+Look email up in google hangouts, see network tab for autocomplete json, get userid from there
+
+go to https://google.com/maps/contrib/<userid>/reviews
+
+userid: 115760377201113977336
+
+https://www.google.com/maps/contrib/115760377201113977336/place/ChIJ_whNbrEZ2jERem-ZpQDlWG4/@1.3013435,103.8524197,15z/data=!4m6!1m5!8m4!1e1!2s115760377201113977336!3m1!1e1
+
+part 1: STANDCON22{Y0u_F0uNd_0r
+part 2: C@'s_SEA_cR3t!}
+full flag:
+STANDCON22{Y0u_F0uNd_0rC@'s_SEA_cR3t!}

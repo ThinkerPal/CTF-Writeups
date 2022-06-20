@@ -1,0 +1,12 @@
+Download photo, use exiftool to get location
+
+get DMS Symbols from support.google.com and enter coordinates into google maps
+
+get plus code (copy whole thing)
+
+run in code, get flag
+
+
+https://www.google.com/maps/place/14%C2%B034'55.2%22N+120%C2%B058'22.8%22E/@14.582,120.973,17z/data=!4m5!3m4!1s0x0:0x844e426ce5a2374a!8m2!3d14.582!4d120.973
+
+STANDCON22{69fb13fc17536fa7d6a5d0043a0b9f12}

@@ -1,0 +1,7 @@
+Open Wireshark -> Check HTTP Objects -> export file -> Cyberchef (b64)
+
+
+U1RBTkRDT04yMDIye2NmYy15MHUyX2QzZjR1MTdfOTQ3M3c0eV83MF80X2N5ODMyX2M0MjMzMn0= 
+
+
+STANDCON2022{cfc-y0u2_d3f4u17_9473w4y_70_4_cy832_c42332}

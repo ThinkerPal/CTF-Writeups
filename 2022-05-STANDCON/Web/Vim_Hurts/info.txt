@@ -1,0 +1,3 @@
+Entrypoint: get .index.php.swp file
+
+get php code
