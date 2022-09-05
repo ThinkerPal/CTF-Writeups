@@ -23,4 +23,4 @@ _Spoiler Alert: ~~If you can't already tell, I'm pretty bad at finding time to f
 - The One After NOI 2019 
 - Might have more but I forgot :(
 
-Inspired by [@xeniafiorenza](https://github.com/xeniafiorenza). Go check out his [CTF Writeup repo](https://github.com/xeniafiorenza/CTF-Writeups)!
+Inspired by [@XenosF](https://github.com/XenosF). Go check out his [CTF Writeup repo](https://github.com/XenosF/CTF-Writeups)!

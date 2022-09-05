@@ -3,7 +3,7 @@
 - Category: Linux
 - Points: 200
 - Captures: 39
-- Challenge Helpers: [@XeniaFiorenza](https://github.com/xeniafiorenza/CTF-Writeups/tree/main/CDDC%202021)
+- Challenge Helpers: [@XenosF](https://github.com/XenosF/CTF-Writeups/tree/main/CDDC%202021)
 
 ## Challenge Description:
 ```
